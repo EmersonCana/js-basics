@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          Meter:
+          <input type="number" id="meter" class="form-control" />
+
+          Centimeter:
+          <input type="number" id="centimeter" class="form-control" />
+
+          <button
+            id="convert"
+            class="d-block btn btn-primary my-2"
+            onclick="meterToCm()"
+          >
+            Convert
+          </button>
+        </div>
+        <div class="col-4">
+          Kilos:
+          <input type="number" id="kilos" class="form-control" />
+
+          Pounds:
+          <input type="number" id="pounds" class="form-control" />
+
+          <button
+            id="convert"
+            class="d-block btn btn-primary my-2"
+            onclick="kilosToPounds()"
+          >
+            Convert
+          </button>
+        </div>
+        <div class="col-4">
+          Kilometers:
+          <input type="number" id="kilometers" class="form-control" />
+
+          Yard:
+          <input type="number" id="yard" class="form-control" />
+
+          <button
+            id="convert"
+            class="d-block btn btn-primary my-2"
+            onclick="kilometersToYard()"
+          >
+            Convert
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="calculator.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+@media (max-width: 767px) and (min-width: 576px) {
+  .container {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .container {
+    font-size: 2rem;
+  }
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  color: white;
+}
+
+#demo {
+  font-size: 5rem;
+  text-align: center;
+}
+
+#increment,
+#decrement {
+  width: 80px;
+  margin-inline: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-button {
+  background-color: rgb(77, 165, 77);
+  height: 30px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  border: 1px solid gray;
+}
+
+.custom-button:active {
+  background-color: rgb(65, 138, 65);
+}
